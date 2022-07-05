@@ -1,0 +1,80 @@
+
+/* univrsal selector */
+*{
+    color: tomato;
+}
+
+
+/* class selector */
+.className{
+    text-align: center;
+    size: 20px;
+    text-shadow: 7px;
+}
+
+/* id selector */
+#idName{
+    text-align: center;
+    size: 20px;
+    text-shadow: 5px;
+}
+
+/* header selector */
+h1{
+    color : red
+}
+
+/* paragraph selector */
+p{
+    font-size:xx-large;
+    color:blue;
+}
+
+/* atribut selector */
+a[href*="example"] {
+    background-color: silver;
+}
+
+
+/* combinator selector */
+/* Adjacent Sibling */
+img + p {
+    color: green;
+}
+/* Sibling Selector */
+img ~ p {
+    color: green;
+ }
+
+
+ /* Child Selector */
+div > p {
+    background-color:yellow;
+ }
+
+ /* Descendant Selector  */
+ div p {
+    background-color: yellow;
+ }
+
+
+ /* Pseudo-class Selector */
+ /* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+a:link {
+    color: red;
+ }
+  
+ /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+ a:visited {
+    color: blueviolet;
+ }
+  
+ /* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+ a:hover {
+    color: pink;
+ }
+  
+ /* rule akan diterapkan pada sebuah tautan ketika ditekan */
+ a:active {
+    color:orange;
+ }

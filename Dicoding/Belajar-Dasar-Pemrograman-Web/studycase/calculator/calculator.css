@@ -1,0 +1,191 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.flex-container-column{
+    /* add flex */
+    display: flex;
+    flex-direction: column;
+
+    max-width: 800px;
+    margin:0 auto;
+    text-align: end;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
+  }
+
+.flex-container-row{
+    /* add flex */
+    display: flex;
+
+    /* don't need define flex-direction : row; bcs row is default */
+}
+
+
+.display {
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #333333;
+    border: 1px solid black;
+    font-size: 2em;
+  }
+
+
+.button{
+    /* define flex-basis 25% */
+    flex-basis: 25%;
+
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid black;
+    background:  -webkit-linear-gradient(top, #d2d2d2, #ddd);
+    cursor: pointer;
+}  
+
+
+@media screen and (max-width: 513px) {
+    .button {
+        padding: 10px;
+    }
+}  
+   
+.button:hover {
+    font-weight: bold;
+}
+
+
+.operator{
+      /* define flex-basis 25% */
+      flex-basis: 25%;
+
+      background: orange;
+      font-size: 1.5em;
+      text-align: center;
+      padding: 40px;
+      border: 1px solid black;
+      cursor: pointer;
+}
+.operator:hover{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 513px) {
+    .operator {
+        padding: 10px;
+    }
+ }
+
+.clear{
+            /* define flex-basis 25% */
+            flex-basis: 25%;
+
+            background: orange;
+            font-size: 1.5em;
+            text-align: center;
+            padding: 40px;
+            border: 1px solid black;
+            background:  -webkit-linear-gradient(top, #d2d2d2, #ddd);
+            cursor: pointer;
+}
+.clear:hover{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 513px) {
+    .clear {
+        padding: 10px;
+    }
+ }
+
+
+.double{
+    flex-basis: 50%;
+} 
+
+.equals{
+        /* define flex-basis 25% */
+        background: orange;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 40px;
+        border: 1px solid black;
+        cursor: pointer;
+}
+.equals:hover{
+    font-weight: bold;
+}
+@media screen and (max-width: 513px) {
+    .equals {
+        padding: 10px;
+    }
+ }
+
+
+.negative{
+            /* define flex-basis 25% */
+            flex-basis: 25%;
+
+            background: orange;
+            font-size: 1.5em;
+            text-align: center;
+            padding: 40px;
+            border: 1px solid black;
+            cursor: pointer;
+}
+.negative:hover{
+    font-weight: bold;
+}
+@media screen and (max-width: 513px) {
+    .negative {
+        padding: 10px;
+    }
+ }
+
+
+ .history{
+    width : 80%;
+    margin : 30px auto 0 auto;
+    overflow : scroll;
+ }
+
+ @media screen and (max-width: 513px) {
+    .button {
+        padding: 10px;
+    }
+    .history {
+        width: 100%;
+    }
+ }
+
+ table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+ }
+
+th,td {
+   text-align: center;
+   padding: 16px;
+}
+
+th {
+    background-color: orange;
+    color: white;
+ }
+  
+ tr:nth-child(even) {
+    background-color: #d2d2d2;
+ }

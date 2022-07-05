@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:20px;
+    overflow: auto;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0
+}
+
+hr{
+    background-color : #eeeeee;
+}
+
+.profile_text_username{
+    text-align: start;
+    font-size: 22px;
+    margin: 0;
+    margin-left: 0px;
+}
+
+.profile_text_caption{
+    text-align: start;
+}
+
+.profile_text_name{
+    margin: 0;
+    height : 100px;
+    text-align: start;
+    font-size: 20px;
+    color: #aaaaaa;
+}
+
+.profile_text_address{
+    text-align: start;
+    font-size: 14px;
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+
+.text_introduction{
+    margin-top:25px
+}
+.first_row{
+    box-shadow: 0 3px 8px 0 #eeeeee;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 10px 20px 10px 20px;
+    float: right;
+    width: 75%;
+}
+
+.inline_logo ul{
+    padding: 0px;
+}
+
+.inline_logo li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.inline_logo a:hover {
+    font-weight: bold;
+}
+
+.navbar{
+    background-color:	#043444;
+    padding: 5px 0px 5px 5px;
+    text-align: right;
+}
+
+.navbar img{
+    width:30px;
+    padding: 0;
+    margin-right: 600px;
+}
+
+.navbar li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 45px;
+    padding-bottom: 5px;
+}
+.navbar a {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+   font-weight: bold;
+   color: #3cdb84;
+}
+
+aside {
+    margin: 0px auto;
+    float: left;
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 50px;
+
+}
+
+footer {
+    color: white;
+    padding: 5px 0px 5px 5px;
+    padding : 15px;
+    background-color:	#043444;
+    text-align: right;
+    font-weight: bold;
+}
+
+footer a {
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 45px;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: #3cdb84;
+}

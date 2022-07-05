@@ -1,0 +1,11 @@
+.without_margin{
+    width: 400px;
+    border : 5px solid rgb(76, 27, 255);
+}
+
+
+.with_margin{
+    width: 400px;
+    border : 5px solid rgb(76,28, 255);
+    margin : 20px auto;
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    font-family: Arial,sans-serif;
+}
+
+.header{
+    font : normal 500 small-caps 40px Arial,sans-serif
+}
+
+.p1{
+    font: size 1.5em;
+    text-decoration: underline;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+.p2{
+    font-variant:small-caps;
+    font-style: oblique;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 30px;
+}
+
+.p3{
+    text-indent: 2em;
+    line-height: 2.em;
+    text-shadow: 2px 2px 7px #111111;
+}

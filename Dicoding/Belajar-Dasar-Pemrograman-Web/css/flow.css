@@ -1,0 +1,65 @@
+.box_normal_flow{
+    border-width : 5px;
+    border-color: rgb(255, 32, 32);
+    border-radius: 2px;
+    padding: 30px;
+    border-style: solid;
+    margin : 30px
+}
+
+.box_relative_flow{
+    border-width : 5px;
+    border-color: rgb(147, 32, 255);
+    border-radius: 2px;
+    padding: 30px;
+    border-style: solid;
+    margin : 30px
+}
+
+.p_relative1{
+    position: relative;
+    top :10px;
+    right : 60px;
+}
+.p_relative2{
+    position: relative;
+    top :10px;
+    left : 60px;
+}
+
+.box_absolute_flow{
+    border-width : 5px;
+    width : 500px;
+    border-color: rgb(40, 221, 100);
+    border-radius: 2px;
+    padding: 30px;
+    border-style: solid;
+    margin : 30px
+}
+
+.h_absolute{
+    position: absolute;
+    right : 500px;
+    top: 690px;
+}
+
+.box_fixed_flow{
+    border-width : 5px;
+    width : 500px;
+    border-color: rgb(238, 234, 21);
+    border-radius: 2px;
+    padding: 30px;
+    border-style: solid;
+    margin : 30px
+}
+
+
+.h_fixed{
+    padding: 0px;
+    background-color: #AAAAAA;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;   
+}

@@ -1,0 +1,25 @@
+.c1{
+    /* Warna hijau menggunakan format RGB */
+    color: rgb(78,231,23);
+}
+
+.c2{
+    /* Warna merah Menggunakan format HEX */
+    color: #e71717;
+}
+
+.c3{
+    /* Warna ungu menggunakan format HSL (hanya di CSS3)*/
+    color: hsl(283, 82%, 50%);
+}
+
+.c4{
+    /* warna biru menggunakan predefine color dengan opacity 50% */
+    color: blue;
+    opacity: 0.5;
+}
+
+
+.c5{
+    background-color: yellow;
+}

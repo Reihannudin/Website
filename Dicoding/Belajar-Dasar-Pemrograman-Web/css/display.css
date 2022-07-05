@@ -1,0 +1,9 @@
+.li_inline{
+    display: inline;
+    margin-left : 5px;
+}
+
+.li_block{
+    display: block;
+    margin-left : 5px;
+}
