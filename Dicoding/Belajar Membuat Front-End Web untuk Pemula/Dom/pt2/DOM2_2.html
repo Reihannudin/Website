@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Memasak Air</title>
+  </head>
+  <body>
+    <p id="name">Langkah-langkah memasak air</p>
+    <ol id="daftar">
+      <li id="awal">Masukkan air ke dalam wadah.</li>
+      <li id="akhir">Matikan kompor.</li>
+    </ol>
+    <hr size="2" width="95%" color="black">
+
+    <script>
+        const newElement = document.createElement("li");
+        newElement.innerHTML = "Selamat Menikmati"
+
+        const daftar = document.getElementById("daftar")
+        daftar.appendChild(newElement)
+
+        const firstElement = document.createElement("li")
+        firstElement.innerHTML = "Hidupkan Kompor"
+
+        const itemAwal = document.getElementById('awal');
+
+        daftar.insertBefore(firstElement, itemAwal);
+
+    </script>
+  </body>
+</html>

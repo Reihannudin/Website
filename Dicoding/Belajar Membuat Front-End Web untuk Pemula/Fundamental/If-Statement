@@ -1,0 +1,9 @@
+const score = 93
+
+if (score > 90){
+    console.log("Congratulation")
+} else if (score >= 78){
+    console.log("No Bad")
+} else{
+    console.log("It's okay Try Again")
+}
