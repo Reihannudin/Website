@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+.container {
+    width: var(--container-width-md);
+    max-width: 100%;
+    margin: 0 auto;
+  } 
+
+  section {
+    padding: 60px 0px 0px 0px ;
+  }
+
+  
+/*  Navbar */
+nav {
+    width: 100%;
+    height: 60px;
+    display: inline;
+    position: fixed;
+    z-index: 2;
+    border: solid 0.5 black;
+    background-color:white;
+}
+
+
+nav a {
+    color:rgb(0, 41, 68);
+    font-size: 25px;
+    transition: all 400ms ease;
+}
+
+nav a:hover {
+    color: #000d86;
+  }
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-img{
+    margin-left: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-right: 50px;
+    margin-bottom: 8px;
+  }
+
+
+.container-home{
+    position: relative;
+}  
+ 
+.image-home{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:fill;
+    /* padding-left:50px;
+    padding-right:50px; */
+}  
+
+.title-home{
+    font-size: 45px;
+    display: inline-block;
+}
+
+.desc-home{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.box-home{
+    color: rgb(0, 41, 68);
+    width:80%;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    padding-left:50px;
+    padding-right:50px
+}
+
+.btn-home{
+    background-color: #000d86;
+    color: #fff;
+    padding: 12px;
+    margin-top:10px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.btn-home:hover{
+    background-color: #00095e;
+    color: rgb(231, 231, 231);
+    padding: 12px;
+    margin-top:10px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.title-model{
+    color:#000d86;
+    font-size: 35px;
+    text-align: center;
+    transition: all 400ms ease;
+}
+
+#model-section {
+  width: 100%;
+  display: block;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #FFFFFF;
+}
+
+
+/* .container-member {
+  width: 82%;
+  max-width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+} */
+
+.box-value-model{
+    display: grid;
+    padding-right: 50px;
+    padding-left: 50px;
+    /*     grid-template-columns:44% 44%; */
+    grid-template-columns:50% 50%;
+    justify-content: center;
+}
+
+.model{
+  flex-grow: 1;
+  width: 100%;
+  height: 100%px;
+  display: block;
+  background-color: var(--color-black);
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+}
+
+.name-model{
+  color:#000d86;
+  font-size: 35px;
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+.name-model:hover{
+  color:rgb(0, 41, 68);
+  font-size: 35px;
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+
+#about-hyundai-section{
+  width: 100%;
+  margin-top:10px;
+  background-color: #FFFFFF;
+}
+
+.container-about{
+  text-align: center;
+  padding: 0 100px 0 100px;
+}
+
+.title-about{
+  /* color:#000d86; */
+  color:rgb(0, 65, 109);
+  font-size: 35px;
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+.box-desc-about{
+  margin-top:10px;
+  color:rgb(0, 41, 68);
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+.title-desc-about{
+  color:rgb(0, 41, 68);
+  font-size: 25px;
+  text-align: center;
+  transition: all 400ms ease;
+}
+
+.value-desc-about{
+  color:rgb(0, 41, 68);
+  font-size: 18px;
+  text-align: center;
+  margin-bottom:50px;
+  transition: all 400ms ease;
+}
+
+
+
+.footer-container{
+  width: 100%;
+  height: 100%;
+  background-color: #1d1d1d;
+}
+
+.footer-container img{
+  padding: 20px 30px 20px 30px;
+} 
+
+.text-footer{
+  display: inline;
+  color:rgb(83, 83, 83);
+  font-size: 15px;
+  transition: all 400ms ease;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.text-footer li{
+  float: right;
+  padding: 30px 6px;
+}
+
+.text-footer a{
+  color : white;
+  margin: 5px;
+}
+
+.copyright{
+ color : white;
+}
+
+.text-footer p{
+  color : white;
+  padding:0 0 20px 30px;
+}
+
+
+/* 
+.model{
+  max-width: 487px;
+  height: 280px;
+  display: flex;
+} */
